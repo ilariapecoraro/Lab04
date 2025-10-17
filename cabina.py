@@ -6,6 +6,7 @@ class Cabina:
         self.prezzo = prezzo
         self.disponibile = True  # inizializza la cabina come disponibilE
 
+    
     def __str__(self):
         if self.disponibile:
             return f"{self.codice_cabina} | {self.num_letti} letti - Ponte {self.ponte} - Prezzo {self.prezzo} - Disponibile "
