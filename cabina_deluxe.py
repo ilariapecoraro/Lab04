@@ -7,6 +7,7 @@ class CabinaDeluxe(Cabina):
         self.tipologia = tipologia
         self.prezzo = self.prezzo * 1.20  # modifica il prezzo base letto nel file
 
+
     def __str__(self):
         if self.disponibile:  # controlla se disponibile
             return f"{self.codice_cabina}: {self.tipologia} | {self.num_letti} letti - Ponte {self.ponte} - Prezzo {self.prezzo} - Disponibile "
