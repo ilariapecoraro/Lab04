@@ -4,7 +4,7 @@ class Cabina:
         self.num_letti = num_letti
         self.ponte = ponte
         self.prezzo = prezzo
-        self.disponibile = True  # inizializza la cabina come disponibile
+        self.disponibile = True  # inizializza la cabina come disponibilE
 
     def __str__(self):
         if self.disponibile:
