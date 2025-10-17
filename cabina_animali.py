@@ -8,7 +8,6 @@ class CabinaAnimali(Cabina):
         self.num_animali = num_animali
         self.prezzo = self.prezzo + 1 + (0.10 * self.num_animali) # modifica il prezzo base letto nel file
 
-
     def __str__(self):
         if self.disponibile:
             return f"{self.codice_cabina}: Animali | {self.num_letti} letti - Ponte {self.ponte} - Prezzo {self.prezzo} - Max animali: {self.num_animali} - Disponibile "
